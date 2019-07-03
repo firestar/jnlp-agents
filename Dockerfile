@@ -1,4 +1,4 @@
 FROM jenkins/jnlp-slave
 USER root
-RUN apt install build-essential
+RUN apt install -y build-essential
 USER jenkins
